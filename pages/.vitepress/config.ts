@@ -23,7 +23,20 @@ export default defineConfig({
       },
       {
         text: '定例会のはじめ方',
-        link: '/weekly-meeting'
+        items: [
+          {
+            text: 'はじめに',
+            link: '/weekly-meeting'
+          },
+          {
+            text: '定例会で部長が行うべきこと',
+            link: '/weekly-meeting/things-to-do'
+          },
+          {
+            text: '講義室予約ガイド',
+            link: '/weekly-meeting/room-reservation'
+          }
+        ]
       },
       {
         text: 'イベント企画の進め方',
