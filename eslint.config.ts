@@ -19,7 +19,7 @@ export default defineConfig([
     tseslint.configs.recommended,
     pluginVue.configs["flat/essential"],
     {
-        "files": ["**/*.vue", "**/*.ts", "**/*.mts", "**/*.cts", "**/*.js", "**/*.mjs", "**/*.cjs", "**/*.json"],
+        "files": ["**/*.vue", "**/*.ts", "**/*.mts", "**/*.cts", "**/*.js", "**/*.mjs", "**/*.cjs"],
         "languageOptions": {
             "parserOptions": {
                 "parser": tseslint.parser
