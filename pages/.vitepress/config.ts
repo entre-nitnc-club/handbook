@@ -8,6 +8,7 @@ export default defineConfig({
     "sitemap": {
         "hostname": "https://entre.nitnc.club/handbook/"
     },
+    "base": "/handbook/",
     "themeConfig": {
         // https://vitepress.dev/reference/default-theme-config
         "siteTitle": "アントレプレナークラブ ハンドブック",
